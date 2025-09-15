@@ -1,0 +1,11 @@
+#--extra-index-url https://download.pytorch.org/whl/cu116
+# git+https://github.com/openai/whisper.git@v20230314
+faster-whisper
+fastapi
+uvicorn
+python-multipart
+websockets
+aiortc
+openai-whisper
+nvidia-cublas-cu11
+nvidia-cudnn-cu11

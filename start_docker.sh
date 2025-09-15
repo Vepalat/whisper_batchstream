@@ -1,0 +1,2 @@
+# https://github.com/guillaumekln/faster-whisper/issues/153
+LD_LIBRARY_PATH=`python3 -c 'import os; import nvidia.cudnn.lib; print(os.path.dirname(nvidia.cudnn.lib.__file__))'` python server.py --model turbo --port 9000

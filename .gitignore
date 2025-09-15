@@ -1,0 +1,8 @@
+venv
+.vscode
+cert.pem
+.venv
+tmp
+__pycache__
+*.wav
+test.py
